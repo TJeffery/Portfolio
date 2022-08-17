@@ -15,15 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        //region Skills table
         DB::table('skills')->insert([[
             'name' => 'Game Development',
-            'body' => 'Having has a focus towards game development throughouut my studies, I have plenty of experienace and knowledge
+            'body' => 'Having has a focus towards game development throughout my studies, I have plenty of experienace and knowledge
             in game development. I have honed these skills having created many games in my bachelors, honors, masters, and my time at Hearoes.
              Environments include, Unity, Online, Virtual Reality, Unreal Engine.',
             'imageURL' => 'console'
@@ -41,6 +37,8 @@ class DatabaseSeeder extends Seeder
                 'imageURL' => 'database'
             ]
         ]);
+        //endregion
+        //region Experiences table
         DB::table('experiences')->insert([[
             'name' => 'Hearoes',
             'body' => 'Hearoes is an application for helping those with hearing loss understand and identify sounds.
@@ -69,12 +67,79 @@ class DatabaseSeeder extends Seeder
         ]
 
         ]);
-//        DB::table('knowldge')->insert([
-//            [
-//                'name'=> ,
-//                'experiece_id'=> '1',
-//                'body'=>
-//            ],[],[]
-//        ]);
+        //endregion
+
+        //region table entries for knowledge for Hearoes
+        DB::table('knowledge')->insert([
+            [
+                'name'=> 'Game Development',
+                'experience_id'=> '1',
+                'body'=> 'Using the Unity 3D game engine, I was a member of a small team collaborating in developing the application.
+                My work largely involved adding new UX features, bug fixing, and implementing prototype mini-games for testing.'
+            ],[
+                'name'=> 'Agile workflow',
+                'experience_id'=> '1',
+                'body'=> 'The fast past workflow required with Hearoes was managed with an Agile Methodology.
+                 With daily stand-ups, weekly scrum meetings, and a large white-board with many post-it notes.
+                 Combining with close team members, the workflow was fast, clean and efficient.'
+            ],[
+                'name'=> 'Meeting Clients specifications',
+                'experience_id'=> '1',
+                'body'=> ' data from results had to be used  ata clinical level'
+            ]
+        ]);
+        //endregion
+
+        //region Table entries for knowledge for masters
+        DB::table('knowledge')->insert([
+            [
+                'name'=> 'know 1',
+                'experience_id'=> '2',
+                'body'=> 'example'
+            ],[
+                'name'=> 'know 2',
+                'experience_id'=> '2',
+                'body'=> 'example'
+            ],[
+                'name'=> 'know 3',
+                'experience_id'=> '2',
+                'body'=> 'example'
+            ]
+        ]);
+        //endregion
+        //region table entreis for knowledge for honours
+        DB::table('knowledge')->insert([
+            [
+                'name'=> 'example',
+                'experience_id'=> '3',
+                'body'=> 'example'
+            ],[
+                'name'=> 'example',
+                'experience_id'=> '3',
+                'body'=> ''
+            ],[
+                'name'=> 'example',
+                'experience_id'=> '3',
+                'body'=> 'example'
+            ]
+        ]);
+        //endregion
+        //region table entries for knowledge for bachelors
+        DB::table('knowledge')->insert([
+            [
+                'name'=> 'example',
+                'experience_id'=> '4',
+                'body'=> 'example'
+            ],[
+                'name'=> 'example',
+                'experience_id'=> '4',
+                'body'=> 'example'
+            ],[
+                'name'=> 'example',
+                'experience_id'=> '4',
+                'body'=> 'example'
+            ]
+        ]);
+        //endregion
     }
 }

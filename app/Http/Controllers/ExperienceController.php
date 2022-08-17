@@ -48,9 +48,15 @@ class ExperienceController extends Controller
      * @param  \App\Models\Experience  $experience
      * @return \Illuminate\Http\Response
      */
-    public function show(Experience $experience)
+    public function show($id)
     {
-        //
+
+        $know = Experience::first()->with(['knowledges'])->where('id', $id);
+
+        return view('experiences',[
+            'experiences' => $know,
+
+        ]);
     }
 
     /**

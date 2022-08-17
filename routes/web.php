@@ -23,4 +23,6 @@ Route::get('/skills', [SkillController::class, 'index']);
 
 Route::get('/experiences',[ExperienceController::class,'index']);
 
+Route::get('/knowldges/{id}',[ExperienceController::class, 'show']);
+
 

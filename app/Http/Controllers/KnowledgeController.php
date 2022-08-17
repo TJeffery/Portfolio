@@ -14,7 +14,7 @@ class KnowledgeController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
