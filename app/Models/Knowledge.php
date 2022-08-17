@@ -5,13 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Experience extends Model
+class Knowledge extends Model
 {
     use HasFactory;
 
-    public function knowldges()
-    {
-        return $this->hasMany(Knowledge::class);
-    }
-
+   public function experience()
+   {
+       return $this->belongsTo(Experience::class);
+   }
 }

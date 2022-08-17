@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\SkillController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing');
 });
+
 Route::get('/skills', [SkillController::class, 'index']);
+
+Route::get('/experiences',[ExperienceController::class,'index']);
 
 

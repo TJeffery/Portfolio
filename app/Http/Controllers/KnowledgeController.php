@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Experience;
+use App\Models\Knowledge;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class ExperienceController extends Controller
+class KnowledgeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,10 +14,7 @@ class ExperienceController extends Controller
      */
     public function index()
     {
-        $exps = Experience::all();
-        return view('experiences',[
-            'experiences'=> $exps
-        ]);
+        //
     }
 
     /**
@@ -45,10 +41,10 @@ class ExperienceController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Experience  $experience
+     * @param  \App\Models\Knowledge  $knowledge
      * @return \Illuminate\Http\Response
      */
-    public function show(Experience $experience)
+    public function show(Knowledge $knowledge)
     {
         //
     }
@@ -56,10 +52,10 @@ class ExperienceController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Experience  $experience
+     * @param  \App\Models\Knowledge  $knowledge
      * @return \Illuminate\Http\Response
      */
-    public function edit(Experience $experience)
+    public function edit(Knowledge $knowledge)
     {
         //
     }
@@ -68,10 +64,10 @@ class ExperienceController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Experience  $experience
+     * @param  \App\Models\Knowledge  $knowledge
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Experience $experience)
+    public function update(Request $request, Knowledge $knowledge)
     {
         //
     }
@@ -79,10 +75,10 @@ class ExperienceController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Experience  $experience
+     * @param  \App\Models\Knowledge  $knowledge
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Experience $experience)
+    public function destroy(Knowledge $knowledge)
     {
         //
     }

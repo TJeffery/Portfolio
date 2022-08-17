@@ -13,7 +13,7 @@
 
 </header>
 
-<body class="bg-gradient-to-br from-[#1F2425] to-[#080808]">
+<body class="bg-gradient-to-br from-[#1F2425] to-[#080808] overscroll-none">
 
 {{$slot}}
 </body>
