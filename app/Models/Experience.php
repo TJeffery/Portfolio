@@ -9,7 +9,7 @@ class Experience extends Model
 {
     use HasFactory;
 
-    public function knowldges()
+    public function knowledges()
     {
         return $this->hasMany(Knowledge::class);
     }

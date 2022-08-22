@@ -3,7 +3,7 @@
 @if($swap==1)
     <x-cardhalf :skill="$skill" />
     <div >
-        <img src="/images/{{$skill->imageURL}}.png">
+        <img src="/images/{{$skill->imageURL}}.png" class="overflow-visible">
 
     </div>
 @else

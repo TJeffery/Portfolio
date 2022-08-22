@@ -51,8 +51,8 @@ class ExperienceController extends Controller
     public function show($id)
     {
 
-        $know = Experience::first()->with(['knowledges'])->where('id', $id);
-
+        $know = Experience::first()->with(['knowledges'])->where('id', $id)->get();
+//        dd($know);
         return view('experiences',[
             'experiences' => $know,
 
