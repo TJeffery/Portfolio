@@ -16,7 +16,7 @@ class SkillController extends Controller
     public function index()
     {
         $skills = Skill::all();
-        return view('skills',[
+        return view('skills.index',[
            'skills'=>$skills
         ]);
     }

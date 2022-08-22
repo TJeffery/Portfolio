@@ -8,7 +8,7 @@
     </p>
 
     @if($skill->link != null)
-    <a href="/knowldges/{{$skill->id}}" class=" font-s text-[#95E0EB] py-5 font-thin underline">What I Learnt -></a>
+    <a href="/experience/{{$skill->id}}" class=" font-s text-[#95E0EB] py-5 font-thin underline">What I Learnt -></a>
     @endif
  {{$slot}}
 </div>

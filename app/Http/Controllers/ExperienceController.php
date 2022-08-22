@@ -16,7 +16,7 @@ class ExperienceController extends Controller
     public function index()
     {
         $exps = Experience::all();
-        return view('experiences',[
+        return view('experience.index',[
             'experiences'=> $exps
         ]);
     }
@@ -51,10 +51,11 @@ class ExperienceController extends Controller
     public function show($id)
     {
 
-        $know = Experience::first()->with(['knowledges'])->where('id', $id)->get();
+        $query = Experience::first()->with(['knowledges'])->where('id', $id)->get();
+        $know=$query[0];
 //        dd($know);
-        return view('experiences',[
-            'experiences' => $know,
+        return view('experience.show',[
+            'experience' => $know,
 
         ]);
     }
