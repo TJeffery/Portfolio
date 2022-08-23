@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use http\Message\Body;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -141,5 +142,25 @@ class DatabaseSeeder extends Seeder
             ]
         ]);
         //endregion
+        BD::table('projects')->insert([
+            [
+              'name'=> 'Orange Richard',
+              'body'=>'Created in Unity3D as part of a 48 hour game developer challenge. In this game, you play as a mutated orange sergeant as they right against hordes of mutated fruit monsters... in space',
+              'imageURL'=> 'orangeRichard',
+              'link'=> 'https://www.youtube.com/watch?v=78Sa-jMJcfQ'
+            ],
+            [
+                'name'=> 'Spooky VR',
+                'body'=>'Created in Unreal Engine 4, this virtual reality experience re-creates Fort Lytton in virtual reality with a spooky twist',
+                'imageURL'=> 'fortVR',
+                'link'=> 'https://www.youtube.com/watch?v=0GM8dsUmuoQ'
+            ],
+            [
+                'name'=> 'Experimental Game Designs',
+                'body'=>' A series of experimental game prototypes developed in Unity3D as part of a challenge over a few days',
+                'imageURL'=> 'experimental',
+                'link'=> 'https://www.youtube.com/watch?v=Qmg6APjlzWg'
+            ]
+        ]);
     }
 }

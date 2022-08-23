@@ -23,7 +23,7 @@
                         {{{"</ Projects />"}}}</a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/contact"
                        class="block py-2 pr-4 pl-3 text-sky-100 text-md font-mono rounded md:p-0 hover:text-green-400">
                         {{{"</ Contact />"}}}</a>
                 </li>

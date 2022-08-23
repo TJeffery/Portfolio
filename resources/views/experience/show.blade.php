@@ -14,11 +14,11 @@
 
             </div>
         </div>
-        <div class="flex grid grid-cols-3 gap-y-10 mt-10">
+        <div class="flex grid grid-cols-2 gap-y-10 gap mt-10">
             @foreach($experience->knowledges as $know)
 
                 <div
-                    class="block p-6 max-w-md  rounded-lg border border-gray-900  bg-gradient-to-t from-[#1F2425] to-[#080808]">
+                    class="block p-6 max-w-md  rounded-lg border border-gray-900  bg-gradient-to-t from-[#1F2425] to-[#080808] border border-zinc-700">
                     <h1 class="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-sky-100 via-[#80A5AB] to-[#80A5AB] mb-5">
                         {{$know->name}}
                     </h1>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\SkillController;
 use Illuminate\Support\Facades\Route;
@@ -24,5 +25,8 @@ Route::get('/skills', [SkillController::class, 'index']);
 Route::get('/experiences',[ExperienceController::class,'index']);
 
 Route::get('/experience/{id}',[ExperienceController::class, 'show']);
+
+Route::get('/contact',[ContactController::class,'create']);
+Route::post('/contact',[ContactController::class,'store']);
 
 
