@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\SkillController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,4 +30,4 @@ Route::get('/experience/{id}',[ExperienceController::class, 'show']);
 Route::get('/contact',[ContactController::class,'create']);
 Route::post('/contact',[ContactController::class,'store']);
 
-
+Route::get('/projects',[ProjectController::class,'index']);

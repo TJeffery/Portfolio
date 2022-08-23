@@ -142,7 +142,7 @@ class DatabaseSeeder extends Seeder
             ]
         ]);
         //endregion
-        BD::table('projects')->insert([
+        DB::table('projects')->insert([
             [
               'name'=> 'Orange Richard',
               'body'=>'Created in Unity3D as part of a 48 hour game developer challenge. In this game, you play as a mutated orange sergeant as they right against hordes of mutated fruit monsters... in space',
