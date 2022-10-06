@@ -1,7 +1,7 @@
 <x-layout>
-    <div class=" flex flex-row ">
-        <div class=" w-1/2 ">
-            <img src="/images/dragonProfile.png" >
+    <div class=" flex flex-row  ">
+        <div class=" relative w-1/2 z-40">
+            <img src="/images/dragonProfile.png">
         </div>
         <div class="  w-1/2 flex justify-center items-center py-52">
             <div class="text-left w-3/5 mx-auto">
@@ -13,16 +13,16 @@
                     I have experience in development across a broad range of mediums including application, game,
                     database, web, Android and Apple.</p>
 
-                <a href="/">
-                    <p class=" font-s text-[#95E0EB] py-5 font-thin underline">
-                        LET'S CHAT ->
-                    </p>
-                </a>
+
+                    <a href="https://www.linkedin.com/in/travis-jeffery/" >
+                        <img src="images/LI-In-Bug.png" class="object-contain h-10 mt-5">
+                    </a>
+
 
             </div>
         </div>
     </div>
-    <div class="flex flex-row  bg-gradient-to-br from-[#1F2425] to-[#080808]">
+    <div class="z-10 relative -top-20 flex flex-row  bg-gradient-to-br from-[#1F2425] to-[#080808] ">
         <div class="  w-1/2 flex justify-center items-center py-52">
             <div class=" text-left w-3/5 mx-auto">
                 <p class="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-100 via-[#80A5AB] to-[#80A5AB]">

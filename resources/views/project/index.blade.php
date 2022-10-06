@@ -8,11 +8,11 @@
         <div class="flex grid-cols-3 gap-3">
             @foreach($projects as $project)
                 <div
-                    class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md bg-gradient-to-tr from-[#1F2425] to-[#080808] dark:border-gray-700">
                     <a href="{{$project->link}}">
-                        <img class="rounded-t-lg" src="/images/{{$project->imageURL}}.png" alt="">
+                        <img class="rounded-t-lg hover:shadow-2xl hover:shadow-sky-300" src="/images/{{$project->imageURL}}.png" alt="">
                     </a>
-                    <div class="p-5">
+                    <div class="p-5 ">
 
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{$project->name}}</h5>
 
