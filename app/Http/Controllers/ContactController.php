@@ -44,8 +44,8 @@ class ContactController extends Controller
             'message'=>'required|max:255|min:4'
         ]);
 
-        $contact = Contact::create($attributes);
-        Mail::to('laraveltravisplacementtest@gmail.com')->send(new contactRequest($contact));
+        //$contact = Contact::create($attributes);
+        Mail::to('laraveltravisplacementtest@gmail.com')->send(new contactRequest($attributes));
         return redirect('/');
     }
 

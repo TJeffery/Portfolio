@@ -15,7 +15,7 @@
 
 
                     <a href="https://www.linkedin.com/in/travis-jeffery/" >
-                        <img src="images/LI-In-Bug.png" class="object-contain h-10 mt-5">
+                        <img src="{{asset("images/LI-In-Bug.png")}}" class="object-contain h-10 mt-5">
                     </a>
 
 
