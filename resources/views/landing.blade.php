@@ -1,13 +1,13 @@
 <x-layout>
     <div class=" flex flex-row  ">
         <div class=" relative w-1/2 z-40">
-            <img src="/images/dragonProfile.png">
+            <img src="{{asset("images/dragonProfile.png")}}">
         </div>
         <div class="  w-1/2 flex justify-center items-center py-52">
             <div class="text-left w-3/5 mx-auto">
                 <p class="font-mono font-extrabold text-5xl text-sky-100 "> Travis Jeffery</p>
                 <p class="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-100 via-[#80A5AB] to-[#80A5AB]">
-                    Proffesional Dragon Rider<br> and Developer</p>
+                    Professional Dragon Rider<br> and Developer</p>
                 <p class="text-sky-100">I am a Software Developer with experience across the board of application development.
                     Currently, I am graduating with masters in software development.
                     I have experience in development across a broad range of mediums including application, game,
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="w-1/2">
-            <img src="/images/regularProfile.png">
+            <img src="{{asset("images/regularProfile.png")}}">
 
         </div>
     </div>
