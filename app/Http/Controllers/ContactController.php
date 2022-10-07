@@ -45,7 +45,8 @@ class ContactController extends Controller
         ]);
 
         //$contact = Contact::create($attributes);
-        Mail::to('laraveltravisplacementtest@gmail.com')->send(new contactRequest($attributes));
+        $contact = new Contact($attributes);
+        Mail::to('laraveltravisplacementtest@gmail.com')->send(new contactRequest($contact));
         return redirect('/');
     }
 
