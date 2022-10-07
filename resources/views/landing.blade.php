@@ -13,11 +13,12 @@
                     I have experience in development across a broad range of mediums including application, game,
                     database, web, Android and Apple.</p>
 
-
+                    <div class="flex flex-col">
                     <a href="https://www.linkedin.com/in/travis-jeffery/" >
                         <img src="{{asset("images/LI-In-Bug.png")}}" class="object-contain h-10 mt-5">
                     </a>
-
+                        <p class="font-extrabold text-transparent text-l bg-clip-text bg-gradient-to-r from-sky-100 via-[#80A5AB] to-[#80A5AB]">gamedevtravis@gmail.com</p>
+                    </div>
 
             </div>
         </div>

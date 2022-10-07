@@ -22,11 +22,11 @@
                        class="block py-2 pr-4 pl-3 text-sky-100 text-md font-mono rounded md:p-0 hover:text-green-400">
                         {{{"</ Projects />"}}}</a>
                 </li>
-                <li>
-                    <a href="/contact"
-                       class="block py-2 pr-4 pl-3 text-sky-100 text-md font-mono rounded md:p-0 hover:text-green-400">
-                        {{{"</ Contact />"}}}</a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="/contact"--}}
+{{--                       class="block py-2 pr-4 pl-3 text-sky-100 text-md font-mono rounded md:p-0 hover:text-green-400">--}}
+{{--                        {{{"</ Contact />"}}}</a>--}}
+{{--                </li>--}}
                 <li>
                     <a href="https://www.google.com/search?q=how+to+hire+good+staff&oq=how+to+hire+good+staff&aqs=chrome..69i57j0i22i30l9.7463j0j15&sourceid=chrome&ie=UTF-8"
                        class="block py-2 pr-4 pl-3 text-sky-100 text-md font-mono rounded md:p-0 hover:text-green-400">
