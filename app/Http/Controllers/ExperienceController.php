@@ -15,7 +15,7 @@ class ExperienceController extends Controller
      */
     public function index()
     {
-        $exps = Experience::all();
+        //$exps = Experience::all();
         return view('experience.index');
     }
 
