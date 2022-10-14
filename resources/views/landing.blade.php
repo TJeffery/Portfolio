@@ -29,9 +29,14 @@
                 <p class="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-sky-100 via-[#80A5AB] to-[#80A5AB]">
                     About Me</p>
                 <p class="text-sky-100">
-                    Currently graduating, I have worked my way through to be a master of my profession. Studies focused on practical execusion and previous work has driven me to constantly learn and improve.
+                    With a passion in video games, I thrived when I studied software development. This quickly turned into a passion for developing software and actively learning new skills. Eventually I worked my way to a Masters in software development and support. My studies have maintained a strong focus on practical assessments and this always aligned with my active learning style, resulting in the development of many skills in development.
                     <br>
-                    With a love of videogames and passion in game development, I have thrived in software development. Bringing the same positive and friendly energy to all work and communications, collaboration becomes a game in its own right working with me.
+                    My most passionate area of development has always been game development, which is reflected in my work, as I focus on the user experience. I believe that a static simple application can easily be improved with a focus towards improving user experience and having fun with development can easily reflect on the results.
+               <br>
+                    My goal for my career is to develop games to teach skills through practical experience. This gamification of learning is exciting and allows for endless potential of growth. My experience in game development comes form both a bachelors and a job with Hearoes. And I am excited about the prospect of introducing my Virtual Reality experiences to gamified learning to really stretch to the future of not only myself but also game development as whole.
+               <br>
+                    My time with Coding Labs gave me many opportunities for growth as a developer. The projects align with my passion as well as my studies, developing educational software with a focus on user experience has been incredible. Every stage of the work placement program I was part of really geared me up for starting up my career at full speed.
+
                 </p>
 
             </div>

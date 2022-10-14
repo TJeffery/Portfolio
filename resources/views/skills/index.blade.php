@@ -14,7 +14,7 @@
                     Game Development
                 </h1>
                 <p class="font-l text-sky-100">
-                    Having has a focus towards game development throughout my studies, I have plenty of experienace and knowledge
+                    Having has a focus towards game development throughout my studies, I have plenty of experience and knowledge
                     in game development. I have honed these skills having created many games in my bachelors, honors, masters, and my time at Hearoes.
                     Environments include, Unity, Online, Virtual Reality, Unreal Engine.
                 </p>
@@ -48,7 +48,7 @@
                      Database management
                 </h1>
                 <p class="font-l text-sky-100">
-                    During all of my software development, database design and management has been key to implamentation.
+                    During all of my software development, database design and management has been key to implementation.
                     I am confident in these skills to effectively and securely manage data involved in software development and user security.
                 </p>
             </div>

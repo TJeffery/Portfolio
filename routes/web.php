@@ -31,3 +31,22 @@ Route::get('/contact',[ContactController::class,'create']);
 Route::post('/contact',[ContactController::class,'store']);
 
 Route::get('/projects',[ProjectController::class,'index']);
+
+Route::get('/WILCrit', function ()
+{
+    return view('PlacementAssessment.show');
+});
+
+Route::get('/Transferable', function ()
+{
+    return view('Transferable.show');
+});
+Route::get('/MasterReflect', function ()
+{
+    return view('MastersReflection.show');
+});
+Route::get('/AddArt', function ()
+{
+    return view('AddArt.show');
+});
+

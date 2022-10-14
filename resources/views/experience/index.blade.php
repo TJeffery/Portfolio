@@ -5,12 +5,6 @@
     </h1>
     <h2 class="text-center text-sky-200 text-4xl font-bold mb-10">My Workplaces and Studies</h2>
     <div class="justify-center items-center mx-40 my-20">
-{{--        @foreach($experiences as $experience)--}}
-{{--            <div class=" min-h-36 flex flex-row justify-center items-center my-20 mx-10 gap-10 shadow-2xl   ">--}}
-{{--                <x-card :skill="$experience" :swap="$loop->even"/>--}}
-{{--            </div>--}}
-{{--        @endforeach--}}
-
             <div class=" min-h-36 flex flex-row justify-center items-center my-20 mx-10 gap-10 shadow-2xl   ">
             <div >
                 <img src="{{asset("images/console.png")}}" class="overflow-visible">
@@ -20,8 +14,8 @@
                     <a href="https://www.games4hearoes.com/"> Hearoes </a>
                 </h1>
                 <p class="font-l text-sky-100">
-                    "Hearoes is an application for helping those with hearing loss understand and identify sounds.
-                    Collaborating with experts in the auditory fields, Hearoes revolutionalises the process for patients to become accustom to their surroundings."
+                    Hearoes is an application for helping those with hearing loss understand and identify sounds.
+                    Collaborating with experts in the auditory fields, Hearoes revolutionises the process for patients to become accustom to their surroundings.
                 </p>
             </div>
             </div>
@@ -33,8 +27,8 @@
                     <a href="https://www.griffith.edu.au/study/degrees/master-of-information-technology-5612"> Griffith University - Masters </a>
                 </h1>
                 <p class="font-l text-sky-100">
-                    Consitantly placing among the top 2% of universities, Griffith university produces top graduates, I am no exception.
-                    Graduating with a Masters of Information Technology in 2022, my major is Software Develoment and Support, I have excelled in these studies and my skills reflect justly.
+                    Consistently placing among the top 2% of universities, Griffith university produces top graduates, I am no exception.
+                    Graduating with a Masters of Information Technology in 2022, my major is Software Development and Support, I have excelled in these studies and my skills reflect justly.
                 </p>
             </div>
             <div >
