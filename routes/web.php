@@ -34,10 +34,10 @@ Route::get('/projects',[ProjectController::class,'index']);
 
 Route::get('/WILCrit',[\App\Http\Controllers\WILReportController::class,'placementReflect']);
 
-Route::get('/WILCrit', function ()
-{
-    return view('PlacementAssessment.show');
-});
+//Route::get('/WILCrit', function ()
+//{
+//    return view('PlacementAssessment.show');
+//});
 
 Route::get('/Transferable', function ()
 {
