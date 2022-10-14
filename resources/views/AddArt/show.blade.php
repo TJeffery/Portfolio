@@ -1,5 +1,5 @@
 <x-layout>
-    <x-WIlNavBar />
+    <x-WIlNavBar></x-WIlNavBar>
     <h1 class="text-center font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-sky-100 via-[#80A5AB] to-[#80A5AB]
         my-10">
         WIL Placement Report
